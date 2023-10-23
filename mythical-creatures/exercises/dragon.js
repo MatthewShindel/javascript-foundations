@@ -13,7 +13,7 @@ function greetRider(dragon){
   return `Hi, ${dragon.rider}!`
 }
 function eat(dragon){
-  dragon.timesEaten = dragon.timesEaten + 1;
+  dragon.timesEaten++;
   if (dragon.timesEaten >= 3){
     dragon.hungry = false;
   }
